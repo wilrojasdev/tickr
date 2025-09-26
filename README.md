@@ -2,6 +2,22 @@
 
 Aplicación Flutter para gestión de tareas con Clean Architecture.
 
+[![Download APK](https://img.shields.io/badge/Download-APK-blue)](https://github.com/wilrojasdev/tickr/releases/download/version1/app-release.apk)
+
+
+
+---
+
+## 📱 Capturas de pantalla
+
+<p align="center">
+  <img src="assets/screenshots/login.png" alt="Login" width="250"/>
+  <img src="assets/screenshots/list_task.png" alt="Lista de tareas" width="250"/>
+  <img src="assets/screenshots/detail_task.png" alt="Detalle de tarea" width="250"/>
+   <img src="assets/screenshots/edit_task.png" alt="Editar tarea" width="250"/>
+</p>
+
+---
 ## Instrucciones de ejecución
 
 Requisitos previos:
@@ -16,8 +32,7 @@ flutter pub get
 
 Ejecutar en emulador/dispositivo, asegurese de que esten conectados:
 ```bash
-# iOS
-flutter run -d ios
+
 # Android
 flutter run --release
 
@@ -26,7 +41,7 @@ flutter run --release
 
 Compilación release:
 ```bash
-flutter build apk --release     # Android
+flutter build apk --release    
 
 ```
 
